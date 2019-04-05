@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+html { font-size: 125% ; }
+
+body {
+    background-color: #e2e2e2 ;
+    font-family: Roboto, sans-serif ;
+    font-weight: 400 ;
+    padding: 40px;
+}
+
+.iconsLib {
+    /* important so that they are not shown at the top of our page */
+    display: none ;
+}
+
+.btn {
+    display: inline-block ;
+    font-size: 1.3rem ;
+    padding: 1em 2.3em ;
+    margin: 1em ;
+}
+
+.priAction {
+    background-color: #823AA0 ;
+    color: #fff ;
+}
+
+.priAction:hover {
+    background-color: #a66abf ;
+}
+
+.ico {
+    /* draw our icon */
+    display: inline-block ; /* to display the previously hidden icon */
+    width: 1.2em ;
+    height: 1.2em ;
+    line-height: normal ;
+    vertical-align: middle ;
+    position: relative ;
+    top: -.1em ;
+    margin-left: .5em ;
+}
+
+.ico svg {
+    width: 100% ;
+    height: 100% ;
+    fill: currentColor ; /* to take his father's color. In this case '.priAction' */
+}
